@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SocketServer.cpp" />
+    <ClCompile Include="Utilities.cpp" />
     <ClCompile Include="winsock_server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SocketServer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="severconfig.ini" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
